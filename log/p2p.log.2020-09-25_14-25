@@ -1,0 +1,23 @@
+2020-09-25 14:16:05,001 ERROR [root] [__init__.py(<module>:5)] - error
+2020-09-25 14:16:05,003 INFO [root] [__init__.py(<module>:6)] - info
+2020-09-25 14:16:05,171 INFO [root] [approve.py(test01_approve_success:29)] - get login response = {'status': 200, 'description': '登录成功'}
+2020-09-25 14:16:47,908 ERROR [root] [__init__.py(<module>:5)] - error
+2020-09-25 14:16:47,908 INFO [root] [__init__.py(<module>:6)] - info
+2020-09-25 14:16:48,021 INFO [root] [approve.py(test01_approve_success:29)] - get login response = {'status': 200, 'description': '登录成功'}
+2020-09-25 14:16:48,079 INFO [root] [approve.py(test01_approve_success:38)] - approve response = {'status': 200, 'data': {'card_id': '110****995', 'realname': '张**'}, 'description': '提交成功!'}
+2020-09-25 14:18:44,110 ERROR [root] [__init__.py(<module>:5)] - error
+2020-09-25 14:18:44,110 INFO [root] [__init__.py(<module>:6)] - info
+2020-09-25 14:18:44,229 INFO [root] [approve.py(test02_approve_fail_name_is_null:49)] - get login response = {'status': 200, 'description': '登录成功'}
+2020-09-25 14:18:44,285 INFO [root] [approve.py(test02_approve_fail_name_is_null:58)] - approve response = {'description': 'String index out of range: 1', 'status': 100}
+2020-09-25 14:20:05,397 ERROR [root] [__init__.py(<module>:5)] - error
+2020-09-25 14:20:05,398 INFO [root] [__init__.py(<module>:6)] - info
+2020-09-25 14:20:05,509 INFO [root] [approve.py(test03_approve_fail_cardid_is_null:69)] - get login response = {'status': 200, 'description': '登录成功'}
+2020-09-25 14:20:05,559 INFO [root] [approve.py(test03_approve_fail_cardid_is_null:78)] - approve response = {'description': 'String index out of range: 1', 'status': 100}
+2020-09-25 14:24:41,263 ERROR [root] [__init__.py(<module>:5)] - error
+2020-09-25 14:24:41,263 INFO [root] [__init__.py(<module>:6)] - info
+2020-09-25 14:24:41,383 INFO [root] [approve.py(test04_get_approve_success:89)] - get login response = {'status': 200, 'description': '登录成功'}
+2020-09-25 14:24:41,433 INFO [root] [approve.py(test04_get_approve_success:96)] - get approve response = {'is_email_open': '-1', 'lastlogin_time': '1601014615', 'group_status': '', 'is_auth_user': '-1', 'is_realname_open': '2', 'is_corp': '-1', 'business_license': '', 'card_id': '110****995', 'realname': '张**', 'isCert': '2', 'realname_card': '1', 'pay_pwd': '', 'phone': '130****1111', 'realname_status': '-2', 'trustType': 'chinapnr', 'pwd': '1', 'email': '', 'is_trust': '-1'}
+2020-09-25 14:25:59,131 ERROR [root] [__init__.py(<module>:5)] - error
+2020-09-25 14:25:59,131 INFO [root] [__init__.py(<module>:6)] - info
+2020-09-25 14:25:59,243 INFO [root] [approve.py(test04_get_approve_success:89)] - get login response = {'status': 200, 'description': '登录成功'}
+2020-09-25 14:25:59,293 INFO [root] [approve.py(test04_get_approve_success:96)] - get approve response = {'is_email_open': '-1', 'lastlogin_time': '1601015088', 'group_status': '', 'is_auth_user': '-1', 'is_realname_open': '2', 'is_corp': '-1', 'business_license': '', 'card_id': '110****995', 'realname': '张**', 'isCert': '2', 'realname_card': '1', 'pay_pwd': '', 'phone': '130****1111', 'realname_status': '-2', 'trustType': 'chinapnr', 'pwd': '1', 'email': '', 'is_trust': '-1'}
