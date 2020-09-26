@@ -1,11 +1,17 @@
 import unittest,time
+
+from script.approve import approve
 from script.login import login
 import app
 from lib.HTMLTestRunner_PY3 import HTMLTestRunner
 
 #将测试脚本添加到测试套件中
+from script.trust import trust
+
 suite = unittest.TestSuite()
 suite.addTest(unittest.makeSuite(login))
+suite.addTest(unittest.makeSuite(approve))
+suite.addTest(unittest.makeSuite(trust))
 
 #运行套件并生成测试报告
 report_file = app.BASE_DIR + '/report/report{}.html'.format(time.strftime("%Y%m%d-%H%M%S"))
